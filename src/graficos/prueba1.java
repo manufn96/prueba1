@@ -19,6 +19,7 @@ public class prueba1 extends JFrame {
 			public void run() {
 				try {
 					prueba1 frame = new prueba1();
+					System.out.println("hola");
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
